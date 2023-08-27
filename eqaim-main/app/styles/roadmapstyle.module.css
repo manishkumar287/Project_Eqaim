@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Jost&display=swap");
+.roadmapcontainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.roadmapCont {
+  width: 80%;
+  height: fit-content;
+  position: relative;
+  left: 10%;
+  top: 126px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.leftcont,
+.rightcont,
+.middlecont {
+  height: 100%;
+  width: 30%;
+}
+.ul {
+  list-style: none;
+}
+.planned::before {
+  font-family: none;
+  content: "•";
+  color: #f49f85;
+  margin-right: 10px;
+  font-size: 2.5em;
+  vertical-align: middle;
+}
+.inprogress::before {
+  font-family: none;
+  content: "•";
+  color: #ad1fea;
+  margin-right: 10px;
+  font-size: 2.5em;
+  vertical-align: middle;
+}
+.live::before {
+  font-family: none;
+  content: "•";
+  color: #62bcfa;
+  margin-right: 10px;
+  font-size: 2.5em;
+  vertical-align: middle;
+}
+.plannedCard {
+  border-top: 6px solid #f49f85;
+  padding: 10px;
+  margin-top: 15px;
+}
+.livecard {
+  border-top: 6px solid #62bcfa;
+  padding: 10px;
+  margin-top: 15px;
+}
+.inprogresscard {
+  border-top: 6px solid #ad1fea;
+  padding: 10px;
+  margin-top: 15px;
+}
+.type {
+  background-color: #f2f4ff;
+  color: #4661e6;
+  border-radius: 5px;
+  padding: 7px;
+  width: fit-content;
+  font-weight: 600;
+  font-family: "Jost", sans-serif;
+  font-size: 13px;
+}
+.votecontainer {
+  height: 40px;
+  width: fit-content;
+}
+.votebtn,
+.comment {
+  display: flex;
+  align-items: center;
+}
+.vote {
+  color: #3a4374;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+  font-size: 13px;
+}
+.comment {
+  width: 44px;
+  justify-content: space-between;
+}
+.cardfooter {
+  display: flex;
+  justify-content: space-between;
+}
+.plannedHead {
+  color: #3a4374;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+}
+.planneddes {
+  color: #647196;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+}
+#commentNum {
+  color: #3a4374;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+}
+.mainhead {
+  color: #3a4374;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+}
+.maintext{
+  color: #647196;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+}

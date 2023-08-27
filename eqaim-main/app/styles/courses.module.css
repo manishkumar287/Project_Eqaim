@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Jost&display=swap");
+.coursecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.feedbackCard{
+    margin-top: 15px;
+}
+.Eqaimcard {
+  height: 150px;
+  background: radial-gradient(
+    128.88% 128.88% at 103.9% -10.39%,
+    #e84d70 0%,
+    #a337f6 53.09%,
+    #28a7ed 100%
+  );
+}
+.EqaimContent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.heading {
+  color: white;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+}
+.subhead {
+  color: white;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+}
+.feed {
+  width: 100%;
+}
+.feedbtn {
+  background-color: #f2f4ff;
+  color: #4661e6;
+}
+.feedbtn:hover {
+  background-color: #4661e6;
+  color: #ffffff;
+}
+.roadmapCard {
+  margin-top: 15px;
+  padding: 10px;
+}
+.roadmapheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.roadmaphead {
+  color: #3a4374;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+}
+.roadmaplink {
+  color: #4661e6;
+  display: inline-block;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #4661e6;
+  font-weight: 600;
+  font-family: "Jost", sans-serif;
+  font-size: 13px;
+}
+.courselist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ul{
+    padding: 10px;
+    list-style: none;
+}
+.planned,.live,.inprogress{
+    font-family: "Jost", sans-serif;
+    color: #647196;
+    font-size: 16px;
+    font-weight: 400;
+}
+.planned::before{
+    font-family: none;
+    content: "•";
+    color: #F49F85;
+    margin-right: 10px;
+    font-size: 1.6em;
+}
+.inprogress::before{
+    font-family: none;
+    content: "•";
+    color: #AD1FEA;
+    margin-right: 10px;
+    font-size: 1.6em;
+}
+.live::before{
+    font-family: none;
+    content: "•";
+    color: #62BCFA;
+    margin-right: 10px;
+    font-size: 1.6em;
+}
+.coursenumber{
+    font-family: "Jost", sans-serif;
+    color: #647196;
+    font-size: 16px;
+    font-weight: 700; 
+}

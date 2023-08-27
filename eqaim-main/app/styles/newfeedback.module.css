@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Jost&display=swap");
+.mainFeedBackContainer {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+  left: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card {
+  width: 540px;
+  height: fit-content;
+}
+.feedbackHeading {
+  color: #3a4374;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+}
+.addfeedback {
+  width: 144px;
+  height: 44px;
+}
+.addfeedback:hover {
+  background-color: #c75af6;
+}
+.addicon {
+  border-radius: 100%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(
+    128.88% 128.88% at 103.9% -10.39%,
+    #e84d70 0%,
+    #a337f6 53.09%,
+    #28a7ed 100%
+  );
+  position: relative;
+  left: 42px;
+  top: 25px;
+  z-index: 5;
+}
+
+.addiconbtn {
+  color: white;
+  width: 16.03px;
+  height: 16px;
+}
+.cancelbtn {
+  width: 93px;
+  height: 44px;
+  background-color: #3a4374;
+  color: white;
+}
+.deletebtn {
+  width: 93px;
+  height: 44px;
+  background-color: #c21a1a;
+  color: white;
+}
+.cancelbtn:hover {
+  background-color: #e42e0e;
+}
+.feedbackTitle {
+  color: #3a4374;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: "jost", sans-serif;
+}
+.feedbackfooter {
+  width: 98%;
+  display: flex;
+  justify-content: flex-end;
+}
+.descriptiveHeadline {
+  color: #647196;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "jost", sans-serif;
+  margin-bottom: 5px;
+}
+.descriptionInput {
+  width: 100%;
+  height: 48px;
+  font-size: 14px;
+  background-color: #f7f8fd;
+  border-radius: 5px;
+  padding: 0px 0px 0px 15px;
+}
+.descriptionInput:focus {
+  outline: 2px solid #ad1fea;
+}
+.detailInput {
+  width: 100%;
+  height: 96px;
+  font-size: 14px;
+  background-color: #f7f8fd;
+  border-radius: 5px;
+  padding: 0px 0px 0px 15px;
+}
+#options {
+  padding: 10px;
+  border-bottom: 1px solid grey;
+}
+.goback {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.gobackLink {
+  color: #647196;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+}
+.header {
+  margin-top: 20px;
+  padding: 30px;
+}
+.selectOptions {
+  z-index: 10;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  width: 60%;
+}
